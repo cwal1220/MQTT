@@ -10,6 +10,6 @@ def on_public(mosq, userdata, mid):
 
 client = mqtt.Client("publisher")
 client.connect(broker, 1883)
-client.publish("hello/world","heshe")
+client.publish("hello/world","asdasdsd")
 client.loop(5)
 #client.loop_forever()

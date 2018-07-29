@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     {
                         public void run()
                         {
-                            textView.setText("Topic : " + topic + ", Message : " + message.toString());
+                            textView.append("\nTopic : " + topic + ", Message : " + message.toString());
                         }
                     });
 
