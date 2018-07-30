@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 import sys
 import time
 
-broker="49.236.136.179"
+broker="45.119.147.28"
 
 def on_public(mosq, userdata, mid):
  mosq.disconnect()

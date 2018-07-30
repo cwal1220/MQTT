@@ -44,10 +44,10 @@ public class MainActivity extends AppCompatActivity {
 
         String clientId = MqttClient.generateClientId();
         try {
-            client = new MqttClient("tcp://49.236.136.179:1883", clientId, new MemoryPersistence());
+            client = new MqttClient("tcp://45.119.147.28:1883", clientId, new MemoryPersistence());
             client.connect();
             // hello message
-            client.publish("hello/world", new MqttMessage(new String("Hello MQTT !").getBytes()));
+//            client.publish("hello/world", new MqttMessage(new String("Hello MQTT !").getBytes()));
             client.subscribe(topic, new IMqttMessageListener() {
                 @Override
                 public void messageArrived(final String topic, final MqttMessage message) throws Exception {
