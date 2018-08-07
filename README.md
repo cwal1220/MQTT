@@ -1,2 +1,2 @@
 # MQTT
-python-android mqtt
+MQTT 프로토콜을 이용하여 python3 프로그램과 안드로이드 어플리케이션과 통신할 수 있습니다.
